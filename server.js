@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.get('/start-bot', (req, res) => {
     const bot = mineflayer.createBot({
         host: 't-survivalmc.aternos.me',
-        port: 25565,
+        port: 46894,
         username: 'HopWeb_Bot'
     });
 
